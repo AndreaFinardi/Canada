@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#9f1d2f">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="description" content="Una raccolta privata di lettere, parole e ricordi.">
+  <title>Le lettere per te · Ricordi dal cuore</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body class="memories-page">
+  <header class="site-header">
+    <a class="brand" href="/ricordi" aria-label="Torna all'elenco delle lettere">
+      <span class="brand-leaf" aria-hidden="true">🍁</span>
+      <span>
+        <strong>Ricordi dal cuore</strong>
+        <small>Italia ↔ Canada</small>
+      </span>
+    </a>
+
+    <div class="header-actions">
+      <button id="reading-mode-button" class="ghost-button" type="button" aria-pressed="false">
+        <span aria-hidden="true">Aa</span>
+        <span>Modalità lettura</span>
+      </button>
+      <button id="logout-button" class="ghost-button" type="button">
+        <span>Esci</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Per quando sentirai la nostra mancanza</p>
+        <h1 id="page-title">Una valigia piena di parole</h1>
+        <p>
+          Ogni lettera è un piccolo pezzo di casa da portare con te,
+          ovunque ti conduca il tuo viaggio.
+        </p>
+      </div>
+
+      <div class="hero-postcard" aria-hidden="true">
+        <div class="postcard-stamp">CA<br><strong>🍁</strong></div>
+        <div class="postcard-lines">
+          <span></span><span></span><span></span>
+        </div>
+        <p>Con affetto,<br>dall'Italia al Canada.</p>
+      </div>
+    </section>
+
+    <section class="letters-section" aria-labelledby="letters-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">La raccolta</p>
+          <h2 id="letters-title">Scegli una lettera</h2>
+        </div>
+        <p id="letters-count" class="letters-count" aria-live="polite"></p>
+      </div>
+
+      <div id="loading-state" class="state-card" role="status">
+        <span class="loader" aria-hidden="true"></span>
+        <p>Sto aprendo la scatola dei ricordi…</p>
+      </div>
+
+      <div id="letters-grid" class="letters-grid" hidden></div>
+
+      <div id="empty-state" class="state-card" hidden>
+        <span class="state-icon" aria-hidden="true">✉️</span>
+        <h3>La prima lettera deve ancora arrivare</h3>
+        <p>Aggiungila nel file <code>data/letters.json</code>.</p>
+      </div>
+
+      <div id="error-state" class="state-card error-state" hidden role="alert">
+        <span class="state-icon" aria-hidden="true">🧭</span>
+        <h3>Non riesco ad aprire le lettere</h3>
+        <p id="error-message">Ricarica la pagina e riprova.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>La distanza misura i chilometri, non l'affetto.</p>
+    <span aria-hidden="true">🍁</span>
+  </footer>
+
+  <dialog id="letter-dialog" class="letter-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-shell">
+      <div class="dialog-topbar">
+        <div>
+          <p id="dialog-meta" class="eyebrow"></p>
+          <h2 id="dialog-title">Una lettera per te</h2>
+        </div>
+        <button id="dialog-close" class="icon-button" type="button" aria-label="Chiudi la lettera">×</button>
+      </div>
+
+      <div class="letter-layout">
+        <section class="handwritten-panel" aria-labelledby="handwritten-title">
+          <div class="panel-heading">
+            <h3 id="handwritten-title">La lettera originale</h3>
+            <a id="full-image-link" class="text-link" href="#" target="_blank" rel="noopener">Apri a tutto schermo</a>
+          </div>
+          <div class="letter-image-frame">
+            <img id="letter-image" src="" alt="">
+          </div>
+        </section>
+
+        <section class="digital-panel" aria-labelledby="digital-title">
+          <div class="panel-heading digital-heading">
+            <div>
+              <h3 id="digital-title">La lettera digitale</h3>
+              <p>Puoi leggerla oppure ascoltarla.</p>
+            </div>
+          </div>
+
+          <div class="speech-card" aria-label="Comandi di lettura vocale">
+            <div class="speech-main-actions">
+              <button id="speak-button" class="listen-button" type="button">
+                <span class="button-icon" aria-hidden="true">▶</span>
+                <span>Leggi la lettera</span>
+              </button>
+              <button id="pause-button" class="speech-small-button" type="button" disabled aria-label="Metti in pausa">
+                <span aria-hidden="true">Ⅱ</span>
+              </button>
+              <button id="stop-button" class="speech-small-button" type="button" disabled aria-label="Interrompi la lettura">
+                <span aria-hidden="true">■</span>
+              </button>
+            </div>
+
+            <label class="speed-control" for="speech-rate">
+              Velocità
+              <select id="speech-rate">
+                <option value="0.75">Lenta</option>
+                <option value="0.9" selected>Comoda</option>
+                <option value="1">Normale</option>
+                <option value="1.15">Veloce</option>
+              </select>
+            </label>
+            <p id="speech-status" class="speech-status" aria-live="polite">Pronta per essere ascoltata.</p>
+          </div>
+
+          <article id="letter-text" class="letter-text"></article>
+        </section>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

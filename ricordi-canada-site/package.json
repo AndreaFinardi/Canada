@@ -1,0 +1,19 @@
+{
+  "name": "ricordi-canada",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sito privato di lettere e ricordi con lettura vocale.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0"
+  }
+}

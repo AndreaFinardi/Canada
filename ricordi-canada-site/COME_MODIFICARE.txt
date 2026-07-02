@@ -1,0 +1,44 @@
+COME AGGIUNGERE UNA LETTERA
+===========================
+
+1) Metti la foto/scansione in:
+   private/images/
+
+   Esempio:
+   private/images/lettera-martina.jpg
+
+2) Apri:
+   data/letters.json
+
+3) Aggiungi un blocco come questo:
+
+{
+  "id": "martina",
+  "title": "Aprila quando ti mancherà casa",
+  "author": "Lettera di Martina",
+  "date": "17 luglio 2026",
+  "image": "lettera-martina.jpg",
+  "imageAlt": "Lettera scritta a mano da Martina",
+  "preview": "Breve anteprima della lettera.",
+  "text": "Cara amica,\n\nTesto completo digitato a mano.\n\nUn abbraccio,\nMartina"
+}
+
+ATTENZIONE:
+- Ogni id deve essere unico.
+- Il nome in image deve corrispondere esattamente alla foto.
+- Usa \n per andare a capo.
+- Metti una virgola tra una lettera e la successiva.
+- Non mettere una virgola dopo l'ultima lettera.
+
+PUBBLICAZIONE RENDER
+====================
+
+Tipo servizio: Web Service
+Build Command: npm install
+Start Command: npm start
+Health Check Path: /health
+
+Variabili Environment:
+ACCESS_CODE = 17/07/2008
+NODE_ENV = production
+SESSION_SECRET = una-frase-casuale-lunga-almeno-32-caratteri

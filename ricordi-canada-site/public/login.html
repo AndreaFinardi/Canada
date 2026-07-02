@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#9f1d2f">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="description" content="Un piccolo spazio privato pieno di lettere e ricordi.">
+  <title>Ricordi dal cuore · Accesso</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body class="login-page">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <main class="login-shell">
+    <section class="login-card" aria-labelledby="login-title">
+      <div class="canada-mark" aria-hidden="true">
+        <svg viewBox="0 0 120 120" role="img">
+          <path d="M60 7 68 29l15-8-4 19 20-3-12 17 17 7-20 10 5 17-22-5v30H53V83l-22 5 5-17-20-10 17-7-12-17 20 3-4-19 15 8Z"/>
+        </svg>
+      </div>
+
+      <p class="eyebrow">Un posto solo nostro</p>
+      <h1 id="login-title">Ricordi dal cuore</h1>
+      <p class="login-intro">
+        Le parole più belle viaggiano lontano, ma restano sempre vicine.
+      </p>
+
+      <form id="login-form" class="login-form" novalidate>
+        <label for="access-code">Inserisci la nostra data speciale</label>
+        <div class="code-field">
+          <span aria-hidden="true">🍁</span>
+          <input
+            id="access-code"
+            name="code"
+            type="text"
+            inputmode="numeric"
+            autocomplete="off"
+            placeholder="GG/MM/AAAA"
+            maxlength="10"
+            aria-describedby="login-hint login-message"
+            required
+          >
+        </div>
+        <p id="login-hint" class="field-hint">Il formato è giorno/mese/anno.</p>
+        <p id="login-message" class="form-message" role="status" aria-live="polite"></p>
+        <button id="login-button" class="primary-button" type="submit">
+          <span>Apri i ricordi</span>
+          <span aria-hidden="true">→</span>
+        </button>
+      </form>
+
+      <div class="route-line" aria-hidden="true">
+        <span>Italia</span>
+        <span class="route-dots">••••••••••</span>
+        <span>Canada</span>
+      </div>
+    </section>
+  </main>
+
+  <script src="/assets/login.js" defer></script>
+</body>
+</html>

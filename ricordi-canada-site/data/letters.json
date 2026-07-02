@@ -1,0 +1,32 @@
+[
+  {
+    "id": "giulia",
+    "title": "Aprila quando ti mancherà casa",
+    "author": "Lettera di Giulia",
+    "date": "17 luglio 2026",
+    "image": "lettera-giulia.svg",
+    "imageAlt": "Esempio di lettera scritta a mano da Giulia",
+    "preview": "Anche dall'altra parte dell'oceano, ricordati che qui avrai sempre un posto che ti aspetta.",
+    "text": "Cara amica,\n\nanche dall'altra parte dell'oceano, ricordati che qui avrai sempre un posto che ti aspetta. La distanza cambierà le nostre giornate, ma non tutto quello che abbiamo vissuto insieme.\n\nQuando sentirai nostalgia, apri questa lettera e pensa alle nostre risate, ai momenti semplici e a tutte le avventure che ci aspettano ancora.\n\nSono orgogliosa di te e del coraggio con cui stai iniziando questo nuovo capitolo.\n\nCon tutto il mio affetto,\nGiulia"
+  },
+  {
+    "id": "luca",
+    "title": "Per una giornata un po' difficile",
+    "author": "Lettera di Luca",
+    "date": "17 luglio 2026",
+    "image": "lettera-luca.svg",
+    "imageAlt": "Esempio di lettera scritta a mano da Luca",
+    "preview": "Non devi essere forte ogni giorno: a volte basta fermarsi, respirare e ricordarsi quanta strada hai già fatto.",
+    "text": "Ciao,\n\nnon devi essere forte ogni giorno. A volte basta fermarsi, respirare e ricordarsi quanta strada hai già fatto.\n\nIl Canada sarà pieno di cose nuove, alcune bellissime e altre più complicate. In entrambi i casi, non sarai mai davvero sola: noi saremo sempre a un messaggio, una chiamata o una lettera di distanza.\n\nCredi in te stessa almeno quanto crediamo noi in te.\n\nUn abbraccio grande,\nLuca"
+  },
+  {
+    "id": "tutti-noi",
+    "title": "Quando avrai qualcosa da festeggiare",
+    "author": "Da tutti noi",
+    "date": "17 luglio 2026",
+    "image": "lettera-amici.svg",
+    "imageAlt": "Esempio di lettera scritta a mano dal gruppo di amici",
+    "preview": "Qualunque sia il traguardo, piccolo o grande, immaginaci lì con te a fare un brindisi.",
+    "text": "Ehi!\n\nqualunque sia il traguardo, piccolo o grande, immaginaci lì con te a fare un brindisi. Ogni nuova amicizia, ogni posto scoperto e ogni paura superata merita di essere festeggiata.\n\nRaccontaci tutto, anche i dettagli più strani. Noi continueremo a tifare per te dall'Italia e ad aspettare il giorno in cui potremo ascoltare tutte le tue storie dal vivo.\n\nSiamo fieri di te.\n\nCon affetto,\ntutti noi"
+  }
+]

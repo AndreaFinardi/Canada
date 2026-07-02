@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#eadfce"/>
+  <rect x="58" y="52" width="1084" height="1495" rx="7" fill="#fffaf0" stroke="#cfbea8" stroke-width="3"/>
+  <g opacity=".22" stroke="#7198b0" stroke-width="2">
+    <path d="M105 265h990M105 350h990M105 435h990M105 520h990M105 605h990M105 690h990M105 775h990M105 860h990M105 945h990M105 1030h990M105 1115h990M105 1200h990M105 1285h990M105 1370h990"/>
+  </g>
+  <g fill="#4a3b43" font-family="cursive" font-size="46" font-style="italic">
+    <text x="140" y="190">Ehi!</text>
+    <text x="140" y="310">Qualunque sia il traguardo,</text>
+    <text x="140" y="395">immaginaci lì con te a fare un brindisi.</text>
+    <text x="140" y="565">Ogni nuova amicizia, ogni posto scoperto</text>
+    <text x="140" y="650">e ogni paura superata merita una festa.</text>
+    <text x="140" y="820">Raccontaci tutto, anche i dettagli strani.</text>
+    <text x="140" y="905">Continueremo a tifare per te dall'Italia.</text>
+    <text x="140" y="1075">Siamo fieri di te.</text>
+    <text x="140" y="1245">Con affetto,</text>
+    <text x="690" y="1375" font-size="67">tutti noi</text>
+  </g>
+  <g fill="#a82033" opacity=".8">
+    <path d="M910 130 925 172l29-16-8 37 40-6-24 34 33 14-39 20 10 33-44-10v58h-28v-58l-44 10 10-33-39-20 33-14-24-34 40 6-8-37 29 16Z"/>
+    <path d="M1020 245 1030 273l19-11-5 25 26-4-16 23 22 9-26 13 7 22-30-7v39h-19v-39l-30 7 7-22-26-13 22-9-16-23 26 4-5-25 19 11Z"/>
+  </g>
+</svg>
