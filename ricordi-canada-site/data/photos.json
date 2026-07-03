@@ -243,6 +243,99 @@
         "file": "sofia-02.jpeg",
         "alt": "Foto ricordo di Sofia",
         "caption": "Sofia · Foto 2"
+      },
+      {
+        "file": "sofia-03.jpeg",
+        "alt": "Foto ricordo di Sofia",
+        "caption": "Sofia · Foto 3"
+      },
+      {
+        "file": "sofia-04.jpeg",
+        "alt": "Foto ricordo di Sofia",
+        "caption": "Sofia · Foto 4"
+      },
+      {
+        "file": "sofia-05.jpeg",
+        "alt": "Foto ricordo di Sofia",
+        "caption": "Sofia · Foto 5"
+      },
+      {
+        "file": "sofia-06.jpeg",
+        "alt": "Foto ricordo di Sofia",
+        "caption": "Sofia · Foto 6"
+      },
+      {
+        "file": "sofia-07.jpeg",
+        "alt": "Foto ricordo di Sofia",
+        "caption": "Sofia · Foto 7"
+      }
+    ]
+  },
+  {
+    "id": "aury",
+    "name": "Aury",
+    "description": "Tutti i ricordi e i momenti condivisi con Aury.",
+    "cover": "aury-01.jpeg",
+    "photos": [
+      {
+        "file": "aury-01.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 1"
+      },
+      {
+        "file": "aury-02.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 2"
+      },
+      {
+        "file": "aury-03.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 3"
+      },
+      {
+        "file": "aury-04.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 4"
+      },
+      {
+        "file": "aury-05.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 5"
+      },
+      {
+        "file": "aury-06.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 6"
+      },
+      {
+        "file": "aury-07.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 7"
+      },
+      {
+        "file": "aury-08.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 8"
+      },
+      {
+        "file": "aury-09.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 9"
+      },
+      {
+        "file": "aury-10.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 10"
+      },
+      {
+        "file": "aury-11.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 11"
+      },
+      {
+        "file": "aury-12.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 12"
       }
     ]
   },
@@ -271,6 +364,11 @@
         "file": "tutti-04.jpeg",
         "alt": "Foto ricordo di Tutti",
         "caption": "Tutti · Foto 4"
+      },
+      {
+        "file": "tutti-05.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 5"
       }
     ]
   }
