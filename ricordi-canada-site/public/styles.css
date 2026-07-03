@@ -894,10 +894,10 @@ main {
 
 .letter-image-frame img {
   display: block;
-  width: auto;
+  width: 100%;
   max-width: 100%;
   height: auto;
-  max-height: 100%;
+  max-height: none;
   border-radius: 6px;
   background: white;
   box-shadow: 0 14px 35px rgba(58, 39, 34, 0.2);

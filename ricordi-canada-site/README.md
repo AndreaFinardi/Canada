@@ -231,3 +231,7 @@ public/site.webmanifest
 
 Compare nella scheda del browser e, sui dispositivi compatibili, quando il sito viene aggiunto alla schermata Home.
 
+## Lettere già inserite
+
+Questa versione contiene 12 lettere: Ilaria, Angela, Arianna, Betta, Caterina, Jappy, Maino, Matteo, Micheal, Rita, Stefania e Sofia. La lettera di Sofia mantiene le due fotografie originali; per le lettere disponibili solo come testo sono state create immagini in stile manoscritto. I testi digitali completi sono in `data/letters.json` e vengono letti dal pulsante di sintesi vocale.
+

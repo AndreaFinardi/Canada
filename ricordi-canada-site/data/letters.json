@@ -1,32 +1,122 @@
 [
   {
-    "id": "giulia",
-    "title": "Aprila quando ti mancherà casa",
-    "author": "Lettera di Giulia",
-    "date": "17 luglio 2026",
-    "image": "lettera-giulia.svg",
-    "imageAlt": "Esempio di lettera scritta a mano da Giulia",
-    "preview": "Anche dall'altra parte dell'oceano, ricordati che qui avrai sempre un posto che ti aspetta.",
-    "text": "Cara amica,\n\nanche dall'altra parte dell'oceano, ricordati che qui avrai sempre un posto che ti aspetta. La distanza cambierà le nostre giornate, ma non tutto quello che abbiamo vissuto insieme.\n\nQuando sentirai nostalgia, apri questa lettera e pensa alle nostre risate, ai momenti semplici e a tutte le avventure che ci aspettano ancora.\n\nSono orgogliosa di te e del coraggio con cui stai iniziando questo nuovo capitolo.\n\nCon tutto il mio affetto,\nGiulia"
+    "id": "ilaria",
+    "title": "Pronta ad aspettarti qui",
+    "author": "Lettera di Ilaria",
+    "date": "",
+    "image": "lettera-ilaria.jpg",
+    "imageAlt": "Versione grafica della lettera di Ilaria, creata dal testo fornito",
+    "preview": "Cara Letizia, Tra poco ci lascerai per iniziare un’altra tua solita avventura, solo che questa volta starai via un pò più di tempo. Sto cercando di immaginare come sarà questo anno senza di ",
+    "text": "Cara Letizia, Tra poco ci lascerai per iniziare un’altra tua solita avventura, solo che questa volta starai via un pò più di tempo.\n\nSto cercando di immaginare come sarà questo anno senza di te, senza la nostra Leta, preferisco pensare a quando tornerai, alla nostra ora di pilates e a quanto mi mancherà sentirti disperare per colpa del Pinzi.\n\nAl mio compleanno tu non ci sarai, ma esprimerò un desiderio anche per te, desidero che tu troverai la tua strada, che troverai tanti amici (anche se questo ne sono più che sicura) e soprattutto che tu ti diverta come non mai. Non divertirti troppo però, che poi decidi di restare la e io non te lo perdonerei mai, ti avverto.\n\nSono grata per l’amica che ho trovato in te, non abbiamo bisogno di sentirci tutti i giorni per sapere che ci siamo vicine a vicenda ed è questo che adoro di noi. Sei sempre così piena di cose da fare, ma trovi sempre un momento anche per tutti i tuoi milioni di amici, davvero ti ammiro, non so come tu faccia. Comunque Leta, non potrei essere più felice per te, ti auguro il meglio e ti aspetto, proprio qui, a Castel Mella, pronta per sentirti parlare di tutto quello che hai fatto. Chiamaci e fatti sentire mi raccomando!\n\nLa tua Lily"
   },
   {
-    "id": "luca",
-    "title": "Per una giornata un po' difficile",
-    "author": "Lettera di Luca",
-    "date": "17 luglio 2026",
-    "image": "lettera-luca.svg",
-    "imageAlt": "Esempio di lettera scritta a mano da Luca",
-    "preview": "Non devi essere forte ogni giorno: a volte basta fermarsi, respirare e ricordarsi quanta strada hai già fatto.",
-    "text": "Ciao,\n\nnon devi essere forte ogni giorno. A volte basta fermarsi, respirare e ricordarsi quanta strada hai già fatto.\n\nIl Canada sarà pieno di cose nuove, alcune bellissime e altre più complicate. In entrambi i casi, non sarai mai davvero sola: noi saremo sempre a un messaggio, una chiamata o una lettera di distanza.\n\nCredi in te stessa almeno quanto crediamo noi in te.\n\nUn abbraccio grande,\nLuca"
+    "id": "angela",
+    "title": "Spaccherai anche in Canada",
+    "author": "Lettera di Angela",
+    "date": "",
+    "image": "lettera-angela.jpg",
+    "imageAlt": "Versione grafica della lettera di Angela, creata dal testo fornito",
+    "preview": "Anche se quest’anno ho mollato il teatro e ci siamo viste un po' meno, sei stata una compagna di spettacolo fantastica per i due anni che sono stati. Mi mancherà un sacco non poterti piu abb",
+    "text": "Anche se quest’anno ho mollato il teatro e ci siamo viste un po' meno, sei stata una compagna di spettacolo fantastica per i due anni che sono stati. Mi mancherà un sacco non poterti piu abbordare per le scale del nuovo la mattina per scambiare quelle cinque frasi prima di entrare in classe. Sono sicura che spakkerai anche in Canada e ci posso scommettere che ti farai quasi piu amici là che qua. Sarà un'esperienza a dir poco indimenticabile (perché so che la renderai tale), ti auguro davvero il meglio, fai buon viaggio, e ricordati che ci sono tutti i tuoi amici in Italia ad aspettarti. Ti voglio bene❤️"
   },
   {
-    "id": "tutti-noi",
-    "title": "Quando avrai qualcosa da festeggiare",
-    "author": "Da tutti noi",
-    "date": "17 luglio 2026",
-    "image": "lettera-amici.svg",
-    "imageAlt": "Esempio di lettera scritta a mano dal gruppo di amici",
-    "preview": "Qualunque sia il traguardo, piccolo o grande, immaginaci lì con te a fare un brindisi.",
-    "text": "Ehi!\n\nqualunque sia il traguardo, piccolo o grande, immaginaci lì con te a fare un brindisi. Ogni nuova amicizia, ogni posto scoperto e ogni paura superata merita di essere festeggiata.\n\nRaccontaci tutto, anche i dettagli più strani. Noi continueremo a tifare per te dall'Italia e ad aspettare il giorno in cui potremo ascoltare tutte le tue storie dal vivo.\n\nSiamo fieri di te.\n\nCon affetto,\ntutti noi"
+    "id": "arianna",
+    "title": "Mi mancherai molto",
+    "author": "Lettera di Arianna",
+    "date": "",
+    "image": "lettera-arianna.jpg",
+    "imageAlt": "Versione grafica della lettera di Arianna, creata dal testo fornito",
+    "preview": "Eiiiii Letiiiii È un po’ strano scrivere qualcosa che non è per il Tummolo anche se lui non apprezza molto i miei temi. Nonostante questo sappi che mi sto veramente impegnando quindi non cri",
+    "text": "Eiiiii Letiiiii È un po’ strano  scrivere qualcosa che non è per il Tummolo anche se lui non apprezza molto i miei temi. Nonostante questo sappi che mi sto veramente impegnando quindi non criticare se scrivo cose come “in parte” al posto di “accanto”.  Non so bene cosa scriverti però chill ricorda che conta il pensiero. Sappi che mi mancherà molto scherzare con te (e di te soprattutto ahahahah) però dai, in fondo in fondo ti voglio bene. Oltre a questo mi mancheranno un sacco di altre cose come sentirti raccontare tutte le tue storie che iniziano con “NON SO COME SIA SUCCESSO”,  sentirti dire “NO BETTA NON PUOI CAPIRE”, e insultarti perché non finisci mai il quadrato dei sudoku. Ma soprattutto mi mancherà l’ora di motoria in cui decidevamo come farti le unghie o vedere la mattina il tuo messaggio per andare a prendere Betta. Abbiamo passato solo 9 mesi assieme però molte cose sono diventate delle abitudini da cui è diventato molto difficile distaccarsi. Mi spiace se questa lettera non è lunga (ovviamente lo faccio per la tua dislessia. Non perché non so scrivere). Sicuramente avrai ricevuto lettere più belle della mia però vabbè la prendo con filosofia, l’importante è che tu sappia che quando tornerai probabilmente molte cose saranno cambiate però ormai appena ascolterò OSSESSIONE inevitabilmente non potrò che pensare a te. Mi mancherai molto. Da Mastrotta."
+  },
+  {
+    "id": "betta",
+    "title": "Il nostro anniversario di conoscenza",
+    "author": "Lettera di Betta",
+    "date": "",
+    "image": "lettera-betta.jpg",
+    "imageAlt": "Versione grafica della lettera di Betta, creata dal testo fornito",
+    "preview": "Cara Leta, non aspettarti da me una lettera sdolcinata, che ti farà piangere. Immagino tu mi conosca abbastanza per sapere che il mio modo di mostrare affetto è la presa per il culo. Secondo",
+    "text": "Cara Leta, non aspettarti da me una lettera sdolcinata, che ti farà piangere. Immagino tu mi conosca abbastanza per sapere che il mio modo di mostrare affetto è la presa per il culo. Secondo i miei, non tanto precisi, calcoli, quando partirai ad agosto, saranno passati più di mille giorni dal nostro \"anniversario di conoscenza\". Direi che è un traguardo abbastanza importante, non trovi? Un po' fa tristezza sapere che non potremo più commentare le frasi del Pinsi, discutere sul vino preferito del Comelli o, in generale, parlare delle tue grandi avventure con Matteo Facchini il venerdì sera. Naturalmente i gossip rimarranno, ma con argomenti diversi: \"Betta non capisco cosa mi sta dicendo questo tizio\", \"Betta mi vogliono dentro la squadra di cheerleading\", \"Betta sono caduta durante la presa in aria del balletto prima della partita di basket di Thristan e ora sono in ospedale.\", \"Betta, da quando devo pagare perchè sto male?\", \"Betta ma che cazzo vogliono questi? Massimo gli faccio un autografo.\" Insomma, direi che hai capito. Ovvio, non sarà più la stessa cosa senza te al banco alla mia sinistra. Come l'elefantino che, da quest'anno, rimarrà sempre senza il suo compagno, un po' mi sentirò allo stesso modo. Certo, si possono trovare anche lati positivi: ti divertirai, forse imparerai che si dice \"I have a problem.\" e non \"I have a problems.\" e magari mi si regolarizzarà di nuovo il ciclo (mi hai palesemente passato qualcosa). Una delle mie paure più grandi è questa: chi mi assisterà durante il mio consueto svenimento annuale? Sabri che mi prepara già la tomba? O la bidella che mi fa bere il tè fino a sboccare? Ad ogni modo... goditi questa esperienza e vedi di non dimenticarti di noi. Mi raccomando rispetta le grandi regole supreme: Don't drink, drug, drive and have serious relationships. (occhiolino, occhiolino). Chiamami ogni tanto e, forse, se mi manderai dei vocali, li ascolterò. Un abbraccio virtuale perchè sono anaffettiva, la tua cara Beta"
+  },
+  {
+    "id": "caterina",
+    "title": "Mi mancherai tantissimo",
+    "author": "Lettera di Caterina",
+    "date": "",
+    "image": "lettera-caterina.jpg",
+    "imageAlt": "Versione grafica della lettera di Caterina, creata dal testo fornito",
+    "preview": "disgraziata te ne vai in America e lasci per un anno il copernico! come farò senza le ricreazioni assieme a te e i tuoi racconti mattutini sui tuoi 2003: andrò in depressione!!! sarai dall’a",
+    "text": "disgraziata te ne vai in America e lasci per un anno il copernico! come farò senza le ricreazioni assieme a te e i tuoi racconti mattutini sui tuoi 2003: andrò in depressione!!! sarai dall’altra parte del mondo per un anno, senza il copernico a goderti un’esperienza bellissima. mi mancherai tantissimo ma sono felicissima per te perché sono sicura che questa esperienza ti darà tantissimo e te la meriti tutta!!! sappi che se ti trovi un 2003 anche li schiatto io qui però ahahaahah. ti voglio tantissimo bene, mancherai ❤️"
+  },
+  {
+    "id": "jappy",
+    "title": "Ti aspetteremo con tutti i nuovi gossip",
+    "author": "Lettera di Jappy",
+    "date": "",
+    "image": "lettera-jappy.jpg",
+    "imageAlt": "Versione grafica della lettera di Jappy, creata dal testo fornito",
+    "preview": "Ciao leta, Sarò onesto con te, io inizialmente non avrei saputo cosa scriverti. Sono qua con la ila in auditorium e abbiamo appena finito la scenetta (sei stata la migliore sappilo). Ora per",
+    "text": "Ciao leta, Sarò onesto con te, io inizialmente non avrei saputo cosa scriverti. Sono qua con la ila in auditorium e abbiamo appena finito la scenetta (sei stata la migliore sappilo). Ora però che mi trovo qua a scrivere un po' di cose mi sono venute in mente. Ad esempio la prima volta che ci siamo incontrati alle medie grazie alla mitica Bini. Prima avevo sentito parlare di te solo da... Tu sai chi... Lasciamo stare. Però e stato solo conoscendoti che ho capito chi sei veramente. Di te mi mancheranno le piccole cose, i piccoli eventi che abbiano vissuto insieme: all'inizio quando pensavi che ti stessi sui coglioni, le tue crisi epilettiche ogni volta che avevi una versione il giorno dopo, trovarti fuori da scuola immersa nei tuoi pensieri e nella tua musica sempre ad aspettare la Betta, la tua casa che è stato uno dei luoghi più importanti della nostra compagnia, tutti i dibattiti fatti su qualsiasi argomento... Insomma leta io sono qua in auditorium e credo di non aver ancora realizzato che tra un mese sarai dall'altra parte del mondo ma sono felice perché sono sicuro che quest'esperienza sarà una tra le più belle della tua vita e io insieme a tutti quelli della compagnia ti aspetteremo e saremmo pronti a sentire tutti i tuoi nuovi gossip Ciao leta ci mancherai un sacco P.S. Salutami Bob"
+  },
+  {
+    "id": "maino",
+    "title": "Un mega abbraccio da 6600 km",
+    "author": "Lettera di Maino",
+    "date": "1 luglio 2026",
+    "image": "lettera-maino.jpg",
+    "imageAlt": "Versione grafica della lettera di Maino, creata dal testo fornito",
+    "preview": "Brescia, 01/07/2026 Carissima Letizia (anzi Leti altrimenti ti arrabbi), come vaaa??? fai che ho appena cercato quanto siamo distanti: tu ora sei a circa 6600 km di distanza da me e sono rim",
+    "text": "Brescia, 01/07/2026\n\nCarissima Letizia (anzi Leti altrimenti ti arrabbi),\n\ncome vaaa??? fai che ho appena cercato quanto siamo distanti: tu ora sei a circa 6600 km di distanza da me e sono rimasto scioccato. Mi son chiesto, se ci fosse un ponte che collega l'Europa al nord America quanto tempo ci impiegherei per venire a salutarti? Bè 167 giorni e mezzo (circa 5 MESI E MEZZO) di cammino contando le pause per dormire, diciamo che sei piuttosto lontana.\n\nNonostante ciò spero vivamente che il nostro legame e il tuo col gruppo rimanga invariato e sempre vivo e spero che tu possa percepire quanto ci manchi e mancherai in questo periodo lunghissimo, d’altronde l’amore, l’affetto e la mancanza non conoscono distanze da percorrere vero?\n\nIo penso che tu sia una ragazza molto coraggiosa: fare esperienza dell’anno all’estero non è affatto per i deboli, bisogna essere molto sicuri di se stessi, proprio come lo sei tu. Io probabilmente non riuscirei nemmeno a pensare di fare l’anno all'estero lontano da casa dal momento che sono un po’ un mammone e piuttosto inquadrato in ciò che faccio e in ciò che decido di fare.\n\nTuttavia voglio comunque provare ad immedesimarmi in te, provare a capire cosa stai provando e provare a percepire cosa questa esperienza, per te, voglia dire e per fare ciò credo che sia necessario che io abbia bene in mente un’esperienza che mi ha stravolto come persona, come farà a te l'anno all’estero. Dunque penso che il cammino di Santiago che ho fatto ad aprile 2026 possa aiutarmi in questa “missione”. Potresti pensare che forse Santiago è molto lontano rispetto al tuo tipo di esperienza (basta solo pensare che il cammino è durato 9 giorni, neanche un decimo della durata dell’anno all’estero), ma a me non importa questo, ciò che mi interessa è trovare una somiglianza in “grandezza di significato” e in “quantità e qualità di cambiamento” fra le due esperienze, ora mi spiego meglio.\n\nIl cammino di Santiago, in breve, mi ha permesso di conoscere nuove persone e di vedere il Mondo con uno sguardo diverso, forse più volto al bene mio e degli altri e anche oggi sento quanto Santiago abbia inciso sulla mia persona pure nella vita di tutti i giorni. Quindi il cammino ha significato molto moltissimo per me permettendomi di fare nuove amicizie (“grandezza di significato”) e mi ha reso in qualche modo una persona migliore (“quantità e qualità di cambiamento”).\n\nPenso proprio che tutto questo accadrà pure a te, ovviamente con sfaccettature diverse, ma di base sarà un’esperienza travolgente e bellissima, te lo auguro con tutto me stesso: ogni giorno ti preserverà qualcosa di inaspettato (nuove conoscenze, nuovi dialoghi, nuove lezioni,..) e ti insegnerà qualcosa di nuovo. Davvero, non vedo l’ora, al tuo rientro, di parlare con te di tutto ciò che ti è successo e di tutto ciò che ti ha cambiata (secondo me è proprio vero quando si dice che le esperienze determinano chi siamo).\n\nIn conclusione, mia cara Leti, ti auguro con tutto il cuore di vivere appieno questa splendida esperienza e di portarti dentro tutto ciò di positivo che vivrai in Canada.\n\nCi mancherai tanto, divertiti per tutti noi, non vediamo l’ora che torni.\n\nCon tanto affetto un mega abbraccio. Maino"
+  },
+  {
+    "id": "matteo",
+    "title": "Non dimenticarti della streak",
+    "author": "Lettera di Matteo",
+    "date": "",
+    "image": "lettera-matteo.jpg",
+    "imageAlt": "Versione grafica della lettera di Matteo, creata dal testo fornito",
+    "preview": "Lettera per Letizia cara letizia, non ci conosciamo da troppo tempo e viviamo in due città molto distanti tra loro, eppure ci sentiamo tutti i giorni, anche solo per mantenere la streak su t",
+    "text": "Lettera per Letizia\n\ncara letizia, non ci conosciamo da troppo tempo e viviamo in due città molto distanti tra loro, eppure ci sentiamo tutti i giorni, anche solo per mantenere la streak su tik tok, ed il nostro é diventato un buon rapporto di amicizia. siamo diventati amici da subito: da quando eravamo in classe a londra con le argentine (grazie di aver chiesto il bianchetto al posto mio). lì ci siamo divertiti tanto a scherzare con loro, ma ci siamo divertiti di più a girare tutta roma a piedi (anche se c’era giulia). la prossima volta che scendete vi porterò in altri posti meno turistici ma che comunque meritano. l’unica cosa che ti rimprovero è avermi presentato giulia (già il nome dice tutto), però ti capisco e ti perdono (ci sta scaricare la sua pesantezza anche sugli altri). mi dispiace non salire a brescia prima della tua partenza, ma ti prometto che prima o poi salirò. detto questo, buon anno all’estero e non dimenticarti della streak perché sennò col cazzo che salgo❤️.\n\ncon affetto, MATTEO"
+  },
+  {
+    "id": "micheal",
+    "title": "Io qui ti aspetto",
+    "author": "Lettera di Micheal",
+    "date": "",
+    "image": "lettera-micheal.jpg",
+    "imageAlt": "Versione grafica della lettera di Micheal, creata dal testo fornito",
+    "preview": "Ciao, quindi parti per un anno all’estero. Incredibile. Sono contento per te, davvero. Andare via per un anno è una cosa grossa e so che te la caverai benissimo. Sarà un anno pieno di cose n",
+    "text": "Ciao, quindi parti per un anno all’estero. Incredibile. Sono contento per te, davvero. Andare via per un anno è una cosa grossa e so che te la caverai benissimo. Sarà un anno pieno di cose nuove: gente nuova, posti nuovi, anche giorni un po’ stancanti. È normale. Se ti manca casa, o se ti va solo di sfogarti, scrivimi. Ci sono. Rispondo sempre. Ti chiedo solo questo: divertiti, fai esperienze e non pensare troppo a fare tutto perfetto; prenditi cura di te, mangia bene, riposa e chiedi aiuto se ti serve; torna e raccontami tutto, voglio sentire ogni storia quando rientri. Un anno sembra lungo, ma passa veloce. Io qui ti aspetto. Appena torni ci vediamo e riprendiamo da dove abbiamo lasciato. In bocca al lupo là fuori."
+  },
+  {
+    "id": "rita",
+    "title": "Goditi questa esperienza unica",
+    "author": "Lettera di Rita",
+    "date": "",
+    "image": "lettera-rita.jpg",
+    "imageAlt": "Versione grafica della lettera di Rita, creata dal testo fornito",
+    "preview": "lettera leta 🌺 Cara Letizia, non sai quanto ti invidio! Onestamente scappare per un anno dalla frenesia e dall’esaurimento del nostro caro Cope è sicuramente un’ottima mossa! C’è solo un pic",
+    "text": "lettera leta 🌺\n\nCara Letizia,\n\nnon sai quanto ti invidio! Onestamente scappare per un anno dalla frenesia e dall’esaurimento del nostro caro Cope è sicuramente un’ottima mossa! C’è solo un piccolo problema: chi lo darà più l’asilo politico a tutti noi? Ammettiamolo, più che ospitarci spontaneamente ti obbligavamo ogni volta a cederci casa la sera…era diventato un vero e proprio campo profughi autogestito, con noi accampati ovunque a fare casino e tu che subivi in silenzio. Ci mancherà un sacco quel delirio (a te un po' meno, immagino). Goditi al meglio questa esperienza unica, aspetteremo con ansia tuoi aggiornamenti e racconti!\n\nUn grande abbraccio, Rita\n\np.s. Cerca di non farti espropriare la camera anche dai canadesi ;)"
+  },
+  {
+    "id": "stefania",
+    "title": "La nostra routine si evolve",
+    "author": "Lettera di Stefania",
+    "date": "",
+    "image": "lettera-stefania.jpg",
+    "imageAlt": "Versione grafica della lettera di Stefania, creata dal testo fornito",
+    "preview": "LETAAAAA eccoci qui. È arrivato il momento che tanto temevamo e che, allo stesso tempo, sapevamo sarebbe giunto. Mentre scrivo, mi sembra ancora assurdo pensare che tra pochissimo non sarai ",
+    "text": "LETAAAAA eccoci qui. È arrivato il momento che tanto temevamo e che, allo stesso tempo, sapevamo sarebbe giunto. Mentre scrivo, mi sembra ancora assurdo pensare che tra pochissimo non sarai più qui a riempire le mie giornate con la tua presenza.\n\nLa verità è che, fin da subito, mi mancherà da morire la nostra routine. Mi mancherà non disturbarti più durante le lezioni, non poter vederti girata verso di me per scambiare quello sguardo complice che dice tutto senza bisogno di parole, o ridere insieme di cose che, per chiunque altro, resterebbero un mistero. Le ore di lezione sembreranno infinite, e il silenzio del banco accanto al mio sarà la prova tangibile che sei partita per la tua grande avventura. E proprio perché è una grande avventura, voglio che tu la viva fino in fondo. Voglio che tu diventi la versione più incredibile di te stessa. Incontra persone nuove da ogni angolo del mondo, perditi in strade sconosciute, affronta sfide che ti faranno crescere e colleziona esperienze che ti lasceranno senza fiato. Non trattenerti su nulla,sei lì per fare scorta di vita e ricordati che sennò i racconti della zia leta poi saranno noiosi.Però, c’è una clausola nel nostro accordo che non è negoziabile: la nostra routine non si interrompe, si evolve;alla distanza troviamo una soluzione. Dobbiamo assolutamente mantenere la nostra streak di podcast. E per farlo, ho bisogno di un patto tra noi voglio che, ogni sera, tu trovi un momento per me. Che sia un audio della giornata o un video, voglio che tu mi racconti tutto. Voglio sentire la stanchezza, l’entusiasmo, le nuove parole imparate(spero siano poche perché poi non le so), le risate con i nuovi amici e anche le piccole difficoltà. Sarà come essere lì con te, spettatrice privilegiata (come minimo) della tua trasformazione in una ragazza canadese. Non pensare nemmeno per un secondo che la distanza possa cambiare ciò che siamo. So che vivrai cose magnifiche, ma ti prego non dimenticarti mai di chi ha condiviso esperienze,lunghe ore e  infiniti discorsi tra risate e paure e di chi farà sempre il tifo per te, anche se ci separano oceani o fusi orari assurdi. Tu sarai sempre la mia persona (sei nel famoso accordo), e io sarò sempre qui, pronta ad ascoltare ogni tuo nuovo capitolo.\n\nNon è un addio, perché noi non sappiamo cosa significhi visto che viene dal latino. È solo un “ci sentiamo tra qualche ora”, perché per quanto lontano tu vada, la nostra connessione resta qui. Vai, conquistali tutti (ma attenta ai serious dating) e vivi al massimo. Non vedo l’ora di ricevere il primo report della giornata nel bosco del Canada. Anche se non te lo dico mai e ci conosciamo da poco TI VOGLIO TANTO BENE LETA.\n\nla tua migliore compagna di ore buttate STEFY🫶🫶"
+  },
+  {
+    "id": "sofia",
+    "title": "Ti voglio bene tanto così",
+    "author": "Lettera di Sofia",
+    "date": "1 luglio 2026",
+    "image": "lettera-sofia.jpg",
+    "imageAlt": "Lettera originale scritta a mano da Sofia",
+    "preview": "Cara Leta, come stai? Oggi bene perché abbiamo fatto chiamata prima, spero che in generale sia davvero tutto ok. Tra non molto partirai, eppure sembra ieri quando mi hai chiamata per dirmelo",
+    "text": "Cara Leta,\n\ncome stai? Oggi bene perché abbiamo fatto chiamata prima, spero che in generale sia davvero tutto ok. Tra non molto partirai, eppure sembra ieri quando mi hai chiamata per dirmelo, dirmi che forse, un anno dopo, saresti partita per il Canada per un intero anno.\n\nNon posso dire di non essere contenta perché cavolo se sono contenta, tu vivi per i viaggi, per la curiosità, per le nuove culture ed emozioni. Però cavolo, è tanto difficile lasciarti andare.\n\nOvviamente so che non starai via per sempre, però mi mancherai, tanto. Ripensandoci, è davvero strano il modo in cui siamo diventate amiche e per quanto crazy, ne vado molto molto fiera.\n\nSarà strano non vederti per il Cope, in giro con gli altri, a teatro e in generale sarà strano non averti fisicamente qui, con me.\n\nTuttavia sono sicura che non smetteremo di sentirci, chiamarci e aggiornarci su tutto (anche sui boscaioli canadesi).\n\nForse non ho ancora pienamente realizzato che non ci vedremo per un po' tanto perché ci sono dei periodi nei quali questa cosa (brutta) accade e sinceramente non so se voglio realizzarlo.\n\nTra tutte le cavolate, le discussioni, le testate, gli abbracci, le smorfie, le unghie appena fatte trovo tanta pace, divertimento e spensieratezza.\n\nSpesso, forse spessissimo, ho paura di farti arrabbiare, offenderti o renderti triste e per tanto tempo ho pensato che fosse perché so come sei quando ti arrabbi con gli altri e mai avrei voluto accadesse con me.\n\nOra credo di poter dire che è perché ho tanta paura di perderti. Ci sono stati tanti giorni senza di te, però ora che ci sei non possono più esistere quei giorni.\n\nNon so esattamente come descrivere il bene che ti voglio e sicuramente dei pezzi di carta non basteranno.\n\nPenso che il nostro rapporto sia speciale, un mix tra “possiamo non sentirci per un tot perché siamo la stessa persona” e “se non ci sentiamo per troppo e non ci vediamo impazziamo”.\n\nTi voglio un sacco bene, è un bene diverso, forte e spero che sia così anche per te. Hai presente quando i bambini allargano al massimo le braccia per dire ti voglio tanto bene, ecco io ti voglio bene tanto così.\n\nPensare al momento della partenza, con l'ultimo saluto, mi rende un po' triste perché davvero, sarà come se partisse un pezzo di me.\n\nVorrei scrivere tanto altro ma non trovo le parole per farlo, descriverti quello che sei per me, perciò ti dirò grazie.\n\nGrazie per le risate\nGrazie per le testate\nGrazie per i pianti\nGrazie per le urla\nGrazie per le smorfie\nGrazie per le uscite\nGrazie per le ore di teatro\nGrazie per le chiamate\nGrazie per le chiacchierate\nGrazie per le pause assieme\nGrazie per i pranzi in compagnia\nGrazie per le coccole\nGrazie per i racconti in bagno\nGrazie per le litigate del sabato\nGrazie per tutto quello che fai\nGrazie per tutto quello che sei\nGrazie per esserti legata a me\n\nOra ti saluto e ti lascio con un bacio gigante,\nti voglio tanto bene,\nsei unica,\n\n- Sofi"
   }
 ]
