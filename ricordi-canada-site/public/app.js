@@ -21,9 +21,29 @@ const speechStatus = document.querySelector('#speech-status');
 const readingModeButton = document.querySelector('#reading-mode-button');
 const logoutButton = document.querySelector('#logout-button');
 
+const photoGroupsGrid = document.querySelector('#photo-groups-grid');
+const photosLoadingState = document.querySelector('#photos-loading-state');
+const photosEmptyState = document.querySelector('#photos-empty-state');
+const photosErrorState = document.querySelector('#photos-error-state');
+const photosErrorMessage = document.querySelector('#photos-error-message');
+const photosCount = document.querySelector('#photos-count');
+const photoDialog = document.querySelector('#photo-dialog');
+const photoDialogClose = document.querySelector('#photo-dialog-close');
+const photoDialogTitle = document.querySelector('#photo-dialog-title');
+const photoDialogMeta = document.querySelector('#photo-dialog-meta');
+const photoGalleryGrid = document.querySelector('#photo-gallery-grid');
+const photoViewer = document.querySelector('#photo-viewer');
+const photoViewerClose = document.querySelector('#photo-viewer-close');
+const photoViewerPrev = document.querySelector('#photo-viewer-prev');
+const photoViewerNext = document.querySelector('#photo-viewer-next');
+const photoViewerImage = document.querySelector('#photo-viewer-image');
+const photoViewerCaption = document.querySelector('#photo-viewer-caption');
+
 let currentLetter = null;
 let currentUtterance = null;
 let italianVoice = null;
+let currentPhotoGroup = null;
+let currentPhotoIndex = 0;
 
 function escapeForText(value) {
   return String(value ?? '').trim();
@@ -139,6 +159,205 @@ async function loadLetters() {
     errorMessage.textContent = error.message;
   }
 }
+
+
+
+function pluralizePhotos(count) {
+  return `${count} ${count === 1 ? 'foto' : 'foto'}`;
+}
+
+function buildPhotoGroupCard(group) {
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'photo-group-card';
+  button.dataset.groupId = group.id;
+
+  const cover = document.createElement('span');
+  cover.className = 'photo-group-cover';
+
+  if (group.coverUrl) {
+    const image = document.createElement('img');
+    image.src = group.coverUrl;
+    image.alt = '';
+    image.loading = 'lazy';
+    cover.append(image);
+  } else {
+    const emptyIcon = document.createElement('span');
+    emptyIcon.className = 'photo-group-empty-icon';
+    emptyIcon.setAttribute('aria-hidden', 'true');
+    emptyIcon.textContent = '📷';
+    cover.append(emptyIcon);
+  }
+
+  const content = document.createElement('span');
+  content.className = 'photo-group-content';
+
+  const title = document.createElement('strong');
+  title.textContent = escapeForText(group.name);
+
+  const description = document.createElement('span');
+  description.className = 'photo-group-description';
+  description.textContent = escapeForText(group.description) || 'Un album pieno di ricordi.';
+
+  const footer = document.createElement('span');
+  footer.className = 'photo-group-footer';
+
+  const count = document.createElement('span');
+  count.textContent = pluralizePhotos(group.photoCount);
+
+  const open = document.createElement('span');
+  open.textContent = 'Apri album →';
+
+  footer.append(count, open);
+  content.append(title, description, footer);
+  button.append(cover, content);
+  button.addEventListener('click', () => openPhotoGroup(group.id, button));
+
+  return button;
+}
+
+async function loadPhotoGroups() {
+  try {
+    const response = await fetch('/api/photo-groups');
+
+    if (response.status === 401) {
+      window.location.assign('/login');
+      return;
+    }
+
+    const groups = await response.json();
+    if (!response.ok) throw new Error(groups.error || 'Errore durante il caricamento degli album.');
+
+    photosLoadingState.hidden = true;
+
+    if (!groups.length) {
+      photosEmptyState.hidden = false;
+      photosCount.textContent = '0 album';
+      return;
+    }
+
+    photoGroupsGrid.replaceChildren(...groups.map(buildPhotoGroupCard));
+    photoGroupsGrid.hidden = false;
+    const totalPhotos = groups.reduce((sum, group) => sum + Number(group.photoCount || 0), 0);
+    photosCount.textContent = `${groups.length} ${groups.length === 1 ? 'album' : 'album'} · ${pluralizePhotos(totalPhotos)}`;
+  } catch (error) {
+    photosLoadingState.hidden = true;
+    photosErrorState.hidden = false;
+    photosErrorMessage.textContent = error.message;
+  }
+}
+
+function buildGalleryPhoto(photo, index) {
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'gallery-photo-card';
+  button.setAttribute('aria-label', photo.caption ? `Apri: ${photo.caption}` : `Apri la foto ${index + 1}`);
+
+  const image = document.createElement('img');
+  image.src = photo.url;
+  image.alt = photo.alt;
+  image.loading = 'lazy';
+
+  const overlay = document.createElement('span');
+  overlay.className = 'gallery-photo-overlay';
+  overlay.textContent = photo.caption || `Foto ${index + 1}`;
+
+  button.append(image, overlay);
+  button.addEventListener('click', () => openPhotoViewer(index));
+  return button;
+}
+
+async function openPhotoGroup(id, triggerButton) {
+  triggerButton.classList.add('is-opening');
+
+  try {
+    const response = await fetch(`/api/photo-groups/${encodeURIComponent(id)}`);
+
+    if (response.status === 401) {
+      window.location.assign('/login');
+      return;
+    }
+
+    const group = await response.json();
+    if (!response.ok) throw new Error(group.error || 'Album non trovato.');
+
+    currentPhotoGroup = group;
+    photoDialogTitle.textContent = group.name;
+    photoDialogMeta.textContent = group.description || pluralizePhotos(group.photos.length);
+
+    if (group.photos.length) {
+      photoGalleryGrid.replaceChildren(...group.photos.map(buildGalleryPhoto));
+    } else {
+      const empty = document.createElement('div');
+      empty.className = 'gallery-empty';
+      empty.innerHTML = '<span aria-hidden="true">📷</span><strong>Questo album è ancora vuoto</strong><p>Aggiungi le foto nel file data/photos.json.</p>';
+      photoGalleryGrid.replaceChildren(empty);
+    }
+
+    closePhotoViewer();
+    photoDialog.showModal();
+    photoDialogClose.focus();
+  } catch (error) {
+    window.alert(error.message);
+  } finally {
+    triggerButton.classList.remove('is-opening');
+  }
+}
+
+function updatePhotoViewer() {
+  if (!currentPhotoGroup?.photos?.length) return;
+  const photo = currentPhotoGroup.photos[currentPhotoIndex];
+  photoViewerImage.src = photo.url;
+  photoViewerImage.alt = photo.alt;
+  photoViewerCaption.textContent = photo.caption || `${currentPhotoGroup.name} · Foto ${currentPhotoIndex + 1} di ${currentPhotoGroup.photos.length}`;
+  photoViewerPrev.disabled = currentPhotoGroup.photos.length < 2;
+  photoViewerNext.disabled = currentPhotoGroup.photos.length < 2;
+}
+
+function openPhotoViewer(index) {
+  currentPhotoIndex = index;
+  updatePhotoViewer();
+  photoViewer.hidden = false;
+  photoViewerClose.focus();
+}
+
+function closePhotoViewer() {
+  photoViewer.hidden = true;
+  photoViewerImage.removeAttribute('src');
+  photoViewerCaption.textContent = '';
+}
+
+function movePhotoViewer(direction) {
+  if (!currentPhotoGroup?.photos?.length) return;
+  const length = currentPhotoGroup.photos.length;
+  currentPhotoIndex = (currentPhotoIndex + direction + length) % length;
+  updatePhotoViewer();
+}
+
+photoDialogClose.addEventListener('click', () => photoDialog.close());
+photoDialog.addEventListener('close', closePhotoViewer);
+photoDialog.addEventListener('cancel', (event) => {
+  if (!photoViewer.hidden) {
+    event.preventDefault();
+    closePhotoViewer();
+  }
+});
+photoDialog.addEventListener('click', (event) => {
+  if (event.target === photoDialog) photoDialog.close();
+});
+photoViewerClose.addEventListener('click', closePhotoViewer);
+photoViewerPrev.addEventListener('click', () => movePhotoViewer(-1));
+photoViewerNext.addEventListener('click', () => movePhotoViewer(1));
+photoViewer.addEventListener('click', (event) => {
+  if (event.target === photoViewer) closePhotoViewer();
+});
+
+document.addEventListener('keydown', (event) => {
+  if (photoViewer.hidden) return;
+  if (event.key === 'ArrowLeft') movePhotoViewer(-1);
+  if (event.key === 'ArrowRight') movePhotoViewer(1);
+});
+
 
 async function openLetter(id, triggerButton) {
   triggerButton.classList.add('is-opening');
@@ -273,3 +492,4 @@ if ('speechSynthesis' in window) {
 
 applyReadingMode(localStorage.getItem('ricordi-reading-mode') === 'on');
 loadLetters();
+loadPhotoGroups();

@@ -1,0 +1,21 @@
+{
+  "name": "Ricordi dal cuore",
+  "short_name": "Ricordi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf6ec",
+  "theme_color": "#9f1d2f",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

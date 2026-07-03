@@ -42,3 +42,25 @@ Variabili Environment:
 ACCESS_CODE = 17/07/2008
 NODE_ENV = production
 SESSION_SECRET = una-frase-casuale-lunga-almeno-32-caratteri
+
+
+==============================
+COME AGGIUNGERE LE FOTO
+==============================
+
+1. Metti le foto nelle cartelle:
+   private/photos/ilaria/
+   private/photos/sofia/
+
+2. Apri data/photos.json.
+
+3. Per ogni foto aggiungi un blocco del tipo:
+   {
+     "file": "ilaria-03.jpg",
+     "alt": "Foto con Ilaria",
+     "caption": "Descrizione facoltativa"
+   }
+
+4. Per una nuova persona crea una nuova cartella e duplica un gruppo nel JSON.
+
+L'icona del sito è già configurata e non richiede modifiche.

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ilaria",
+    "name": "Ilaria",
+    "description": "Tutti i ricordi e i momenti vissuti insieme a Ilaria.",
+    "cover": "ilaria-01.svg",
+    "photos": [
+      {
+        "file": "ilaria-01.svg",
+        "alt": "Foto ricordo con Ilaria",
+        "caption": "Un ricordo speciale con Ilaria"
+      },
+      {
+        "file": "ilaria-02.svg",
+        "alt": "Seconda foto ricordo con Ilaria",
+        "caption": "Un altro momento da non dimenticare"
+      }
+    ]
+  },
+  {
+    "id": "sofia",
+    "name": "Sofia",
+    "description": "Tutte le foto più belle e i ricordi condivisi con Sofia.",
+    "cover": "sofia-01.svg",
+    "photos": [
+      {
+        "file": "sofia-01.svg",
+        "alt": "Foto ricordo con Sofia",
+        "caption": "Un ricordo speciale con Sofia"
+      },
+      {
+        "file": "sofia-02.svg",
+        "alt": "Seconda foto ricordo con Sofia",
+        "caption": "Un altro momento da portare in Canada"
+      }
+    ]
+  }
+]

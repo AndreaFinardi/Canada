@@ -7,7 +7,10 @@
   <meta name="robots" content="noindex, nofollow, noarchive">
   <meta name="description" content="Una raccolta privata di lettere, parole e ricordi.">
   <title>Le lettere per te · Ricordi dal cuore</title>
-  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="icon" href="/assets/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="stylesheet" href="/assets/styles.css?v=2">
 </head>
 <body class="memories-page">
   <header class="site-header">
@@ -19,14 +22,21 @@
       </span>
     </a>
 
-    <div class="header-actions">
-      <button id="reading-mode-button" class="ghost-button" type="button" aria-pressed="false">
-        <span aria-hidden="true">Aa</span>
-        <span>Modalità lettura</span>
-      </button>
-      <button id="logout-button" class="ghost-button" type="button">
-        <span>Esci</span>
-      </button>
+    <div class="header-right">
+      <nav class="main-nav" aria-label="Sezioni del sito">
+        <a href="#letters-title">Lettere</a>
+        <a href="#photos-title">Foto</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="reading-mode-button" class="ghost-button" type="button" aria-pressed="false">
+          <span aria-hidden="true">Aa</span>
+          <span>Modalità lettura</span>
+        </button>
+        <button id="logout-button" class="ghost-button" type="button">
+          <span>Esci</span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -76,6 +86,39 @@
         <span class="state-icon" aria-hidden="true">🧭</span>
         <h3>Non riesco ad aprire le lettere</h3>
         <p id="error-message">Ricarica la pagina e riprova.</p>
+      </div>
+    </section>
+
+    <section class="photos-section" aria-labelledby="photos-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Album dei ricordi</p>
+          <h2 id="photos-title">Le nostre foto</h2>
+        </div>
+        <p id="photos-count" class="letters-count" aria-live="polite"></p>
+      </div>
+
+      <p class="photos-intro">
+        Ogni persona ha il suo piccolo album: scegli un nome per rivedere tutti i momenti vissuti insieme.
+      </p>
+
+      <div id="photos-loading-state" class="state-card" role="status">
+        <span class="loader" aria-hidden="true"></span>
+        <p>Sto preparando gli album…</p>
+      </div>
+
+      <div id="photo-groups-grid" class="photo-groups-grid" hidden></div>
+
+      <div id="photos-empty-state" class="state-card" hidden>
+        <span class="state-icon" aria-hidden="true">📷</span>
+        <h3>Gli album sono ancora vuoti</h3>
+        <p>Aggiungili nel file <code>data/photos.json</code>.</p>
+      </div>
+
+      <div id="photos-error-state" class="state-card error-state" hidden role="alert">
+        <span class="state-icon" aria-hidden="true">🖼️</span>
+        <h3>Non riesco ad aprire gli album</h3>
+        <p id="photos-error-message">Ricarica la pagina e riprova.</p>
       </div>
     </section>
   </main>
@@ -146,6 +189,32 @@
     </div>
   </dialog>
 
-  <script src="/assets/app.js" defer></script>
+
+
+  <dialog id="photo-dialog" class="photo-dialog" aria-labelledby="photo-dialog-title">
+    <div class="photo-dialog-shell">
+      <div class="dialog-topbar">
+        <div>
+          <p id="photo-dialog-meta" class="eyebrow">Album fotografico</p>
+          <h2 id="photo-dialog-title">Le foto</h2>
+        </div>
+        <button id="photo-dialog-close" class="icon-button" type="button" aria-label="Chiudi l'album">×</button>
+      </div>
+
+      <div id="photo-gallery-grid" class="photo-gallery-grid"></div>
+
+      <div id="photo-viewer" class="photo-viewer" hidden>
+        <button id="photo-viewer-close" class="photo-viewer-close" type="button" aria-label="Chiudi la foto">×</button>
+        <button id="photo-viewer-prev" class="photo-viewer-arrow photo-viewer-prev" type="button" aria-label="Foto precedente">‹</button>
+        <figure class="photo-viewer-figure">
+          <img id="photo-viewer-image" src="" alt="">
+          <figcaption id="photo-viewer-caption"></figcaption>
+        </figure>
+        <button id="photo-viewer-next" class="photo-viewer-arrow photo-viewer-next" type="button" aria-label="Foto successiva">›</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="/assets/app.js?v=2" defer></script>
 </body>
 </html>

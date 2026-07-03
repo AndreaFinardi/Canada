@@ -19,7 +19,9 @@ const ROOT = __dirname;
 const PUBLIC_DIR = path.join(ROOT, 'public');
 const PRIVATE_DIR = path.join(ROOT, 'private');
 const IMAGES_DIR = path.join(PRIVATE_DIR, 'images');
+const PHOTOS_DIR = path.join(PRIVATE_DIR, 'photos');
 const LETTERS_FILE = path.join(ROOT, 'data', 'letters.json');
+const PHOTOS_FILE = path.join(ROOT, 'data', 'photos.json');
 
 const loginAttempts = new Map();
 
@@ -128,6 +130,33 @@ async function readLetters() {
   }
 
   return parsed;
+}
+
+
+async function readPhotoGroups() {
+  const raw = await fs.readFile(PHOTOS_FILE, 'utf8');
+  const parsed = JSON.parse(raw);
+
+  if (!Array.isArray(parsed)) {
+    throw new Error('data/photos.json deve contenere un elenco JSON.');
+  }
+
+  return parsed;
+}
+
+function normalizePhoto(photo, groupName) {
+  const item = typeof photo === 'string' ? { file: photo } : (photo || {});
+  const filename = path.basename(String(item.file || ''));
+
+  return {
+    file: filename,
+    alt: String(item.alt || `Foto ricordo con ${groupName}`),
+    caption: String(item.caption || '')
+  };
+}
+
+function buildPhotoUrl(groupId, filename) {
+  return `/photo/${encodeURIComponent(groupId)}/${encodeURIComponent(filename)}`;
 }
 
 app.get('/', (req, res) => {
@@ -239,6 +268,93 @@ app.get('/letter-image/:filename', requireAuth, async (req, res, next) => {
     return res.sendFile(path.join(IMAGES_DIR, filename));
   } catch (error) {
     next(error);
+  }
+});
+
+
+
+app.get('/api/photo-groups', requireAuth, async (req, res, next) => {
+  try {
+    const groups = await readPhotoGroups();
+    const safeGroups = groups.map((group) => {
+      const id = path.basename(String(group.id || ''));
+      const name = String(group.name || id || 'Album');
+      const photos = Array.isArray(group.photos)
+        ? group.photos.map((photo) => normalizePhoto(photo, name)).filter((photo) => photo.file)
+        : [];
+      const requestedCover = path.basename(String(group.cover || ''));
+      const cover = photos.find((photo) => photo.file === requestedCover) || photos[0] || null;
+
+      return {
+        id,
+        name,
+        description: String(group.description || ''),
+        photoCount: photos.length,
+        coverUrl: cover ? buildPhotoUrl(id, cover.file) : ''
+      };
+    }).filter((group) => group.id);
+
+    return res.json(safeGroups);
+  } catch (error) {
+    return next(error);
+  }
+});
+
+app.get('/api/photo-groups/:id', requireAuth, async (req, res, next) => {
+  try {
+    const groups = await readPhotoGroups();
+    const group = groups.find((item) => String(item.id) === String(req.params.id));
+
+    if (!group) {
+      return res.status(404).json({ error: 'Album non trovato.' });
+    }
+
+    const id = path.basename(String(group.id || ''));
+    const name = String(group.name || id || 'Album');
+    const photos = Array.isArray(group.photos)
+      ? group.photos.map((photo) => normalizePhoto(photo, name)).filter((photo) => photo.file)
+      : [];
+
+    return res.json({
+      id,
+      name,
+      description: String(group.description || ''),
+      photos: photos.map((photo) => ({
+        url: buildPhotoUrl(id, photo.file),
+        alt: photo.alt,
+        caption: photo.caption
+      }))
+    });
+  } catch (error) {
+    return next(error);
+  }
+});
+
+app.get('/photo/:groupId/:filename', requireAuth, async (req, res, next) => {
+  try {
+    const groups = await readPhotoGroups();
+    const group = groups.find((item) => String(item.id) === String(req.params.groupId));
+
+    if (!group) {
+      return res.status(404).send('Album non trovato.');
+    }
+
+    const groupName = String(group.name || group.id || 'Album');
+    const filename = path.basename(String(req.params.filename || ''));
+    const folder = path.basename(String(group.folder || group.id || ''));
+    const allowedFiles = new Set(
+      (Array.isArray(group.photos) ? group.photos : [])
+        .map((photo) => normalizePhoto(photo, groupName).file)
+        .filter(Boolean)
+    );
+
+    if (!folder || !allowedFiles.has(filename)) {
+      return res.status(404).send('Foto non trovata.');
+    }
+
+    return res.sendFile(path.join(PHOTOS_DIR, folder, filename));
+  } catch (error) {
+    return next(error);
   }
 });
 

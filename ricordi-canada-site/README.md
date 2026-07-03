@@ -172,3 +172,62 @@ Puoi cambiare titolo e frasi introduttive modificando:
 public/login.html
 private/app.html
 ```
+
+## Album fotografici divisi per persona
+
+La nuova sezione **Le nostre foto** legge i gruppi da:
+
+```text
+data/photos.json
+```
+
+Le fotografie vanno nelle cartelle:
+
+```text
+private/photos/ilaria/
+private/photos/sofia/
+```
+
+Ogni persona ha un blocco nel JSON. Esempio:
+
+```json
+{
+  "id": "ilaria",
+  "name": "Ilaria",
+  "description": "Tutti i ricordi con Ilaria.",
+  "cover": "ilaria-01.jpg",
+  "photos": [
+    {
+      "file": "ilaria-01.jpg",
+      "alt": "Foto ricordo con Ilaria",
+      "caption": "Una giornata speciale"
+    },
+    {
+      "file": "ilaria-02.jpg",
+      "alt": "Seconda foto con Ilaria",
+      "caption": "Il nostro viaggio"
+    }
+  ]
+}
+```
+
+Per aggiungere un'altra persona:
+
+1. crea una nuova cartella dentro `private/photos/`, per esempio `private/photos/martina/`;
+2. copia lì le fotografie;
+3. duplica un gruppo in `data/photos.json` e cambia `id`, `name`, `cover` e l'elenco `photos`.
+
+Sono accettati file JPG, JPEG, PNG, WEBP, GIF e SVG. Evita spazi e caratteri accentati nei nomi dei file.
+
+## Icona del sito
+
+L'icona è già inclusa nei file:
+
+```text
+public/favicon.svg
+public/apple-touch-icon.png
+public/site.webmanifest
+```
+
+Compare nella scheda del browser e, sui dispositivi compatibili, quando il sito viene aggiunto alla schermata Home.
+
