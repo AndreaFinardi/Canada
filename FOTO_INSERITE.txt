@@ -1,0 +1,20 @@
+FOTO INSERITE NEL SITO
+=======================
+
+Totale foto: 39
+Totale album: 10
+
+- Angela: 4 foto
+- Betta: 1 foto
+- Caterina: 4 foto
+- Giuls: 14 foto
+- Ilaria: 5 foto
+- Jappy: 1 foto
+- Maino: 3 foto
+- Matteo: 1 foto
+- Sofia: 2 foto
+- Tutti: 4 foto
+
+Le foto si trovano in private/photos/<nome-album>/
+La configurazione degli album è in data/photos.json.
+Carica il contenuto di questa cartella nella cartella ricordi-canada-site del repository GitHub.
