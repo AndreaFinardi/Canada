@@ -1,0 +1,12 @@
+AGGIORNAMENTO NUOVE FOTO + LETTERE
+Foto aggiunte:
+- Aury: 2 nuove foto
+- Tobi: 1 nuove foto
+- Tutti: 5 nuove foto
+
+Lettere aggiunte:
+- Facco: immagine creata dal testo fornito
+- Tobia: fotografia della lettera inserita e testo trascritto per la lettura vocale
+
+Miglioramento telefono:
+- Le anteprime delle foto negli album su smartphone ora usano object-fit: contain, quindi vengono tagliate molto meno.
