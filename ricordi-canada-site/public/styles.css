@@ -1641,3 +1641,39 @@ main {
     max-height: calc(100svh - 145px);
   }
 }
+
+
+/* Miglioramento foto da telefono: niente tagli aggressivi nelle anteprime degli album */
+@media (max-width: 680px) {
+  .photo-group-cover {
+    min-height: 260px;
+    background: linear-gradient(145deg, #fff8ee, #eadfd4);
+  }
+
+  .photo-group-cover img {
+    object-fit: contain;
+    padding: 8px;
+  }
+
+  .photo-gallery-grid {
+    grid-auto-rows: minmax(280px, auto);
+    gap: 16px;
+    padding: 14px;
+  }
+
+  .gallery-photo-card {
+    min-height: 280px;
+    background: #1f1918;
+  }
+
+  .gallery-photo-card img {
+    object-fit: contain;
+    padding: 4px;
+  }
+
+  .gallery-photo-overlay {
+    opacity: 1;
+    transform: none;
+    padding: 50px 14px 14px;
+  }
+}

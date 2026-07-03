@@ -336,6 +336,16 @@
         "file": "aury-12.jpeg",
         "alt": "Foto ricordo di Aury",
         "caption": "Aury · Foto 12"
+      },
+      {
+        "file": "aury-13.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 13"
+      },
+      {
+        "file": "aury-14.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 14"
       }
     ]
   },
@@ -369,6 +379,44 @@
         "file": "tutti-05.jpeg",
         "alt": "Foto ricordo di Tutti",
         "caption": "Tutti · Foto 5"
+      },
+      {
+        "file": "tutti-06.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 6"
+      },
+      {
+        "file": "tutti-07.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 7"
+      },
+      {
+        "file": "tutti-08.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 8"
+      },
+      {
+        "file": "tutti-09.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 9"
+      },
+      {
+        "file": "tutti-10.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 10"
+      }
+    ]
+  },
+  {
+    "id": "tobi",
+    "name": "Tobi",
+    "description": "Tutti i ricordi e i momenti condivisi con Tobi.",
+    "cover": "tobi-01.jpeg",
+    "photos": [
+      {
+        "file": "tobi-01.jpeg",
+        "alt": "Foto ricordo di Tobi",
+        "caption": "Tobi · Foto 1"
       }
     ]
   }
