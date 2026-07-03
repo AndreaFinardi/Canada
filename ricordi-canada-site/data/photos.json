@@ -1,37 +1,276 @@
 [
   {
-    "id": "ilaria",
-    "name": "Ilaria",
-    "description": "Tutti i ricordi e i momenti vissuti insieme a Ilaria.",
-    "cover": "ilaria-01.svg",
+    "id": "angela",
+    "name": "Angela",
+    "description": "Tutti i ricordi e i momenti condivisi con Angela.",
+    "cover": "angela-01.jpeg",
     "photos": [
       {
-        "file": "ilaria-01.svg",
-        "alt": "Foto ricordo con Ilaria",
-        "caption": "Un ricordo speciale con Ilaria"
+        "file": "angela-01.jpeg",
+        "alt": "Foto ricordo di Angela",
+        "caption": "Angela · Foto 1"
       },
       {
-        "file": "ilaria-02.svg",
-        "alt": "Seconda foto ricordo con Ilaria",
-        "caption": "Un altro momento da non dimenticare"
+        "file": "angela-02.jpeg",
+        "alt": "Foto ricordo di Angela",
+        "caption": "Angela · Foto 2"
+      },
+      {
+        "file": "angela-03.jpeg",
+        "alt": "Foto ricordo di Angela",
+        "caption": "Angela · Foto 3"
+      },
+      {
+        "file": "angela-04.jpeg",
+        "alt": "Foto ricordo di Angela",
+        "caption": "Angela · Foto 4"
+      }
+    ]
+  },
+  {
+    "id": "betta",
+    "name": "Betta",
+    "description": "Tutti i ricordi e i momenti condivisi con Betta.",
+    "cover": "betta-01.jpeg",
+    "photos": [
+      {
+        "file": "betta-01.jpeg",
+        "alt": "Foto ricordo di Betta",
+        "caption": "Betta · Foto 1"
+      }
+    ]
+  },
+  {
+    "id": "caterina",
+    "name": "Caterina",
+    "description": "Tutti i ricordi e i momenti condivisi con Caterina.",
+    "cover": "caterina-01.jpeg",
+    "photos": [
+      {
+        "file": "caterina-01.jpeg",
+        "alt": "Foto ricordo di Caterina",
+        "caption": "Caterina · Foto 1"
+      },
+      {
+        "file": "caterina-02.jpeg",
+        "alt": "Foto ricordo di Caterina",
+        "caption": "Caterina · Foto 2"
+      },
+      {
+        "file": "caterina-03.jpeg",
+        "alt": "Foto ricordo di Caterina",
+        "caption": "Caterina · Foto 3"
+      },
+      {
+        "file": "caterina-04.jpeg",
+        "alt": "Foto ricordo di Caterina",
+        "caption": "Caterina · Foto 4"
+      }
+    ]
+  },
+  {
+    "id": "giuls",
+    "name": "Giuls",
+    "description": "Tutti i ricordi e i momenti condivisi con Giuls.",
+    "cover": "giuls-01.jpeg",
+    "photos": [
+      {
+        "file": "giuls-01.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 1"
+      },
+      {
+        "file": "giuls-02.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 2"
+      },
+      {
+        "file": "giuls-03.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 3"
+      },
+      {
+        "file": "giuls-04.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 4"
+      },
+      {
+        "file": "giuls-05.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 5"
+      },
+      {
+        "file": "giuls-06.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 6"
+      },
+      {
+        "file": "giuls-07.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 7"
+      },
+      {
+        "file": "giuls-08.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 8"
+      },
+      {
+        "file": "giuls-09.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 9"
+      },
+      {
+        "file": "giuls-10.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 10"
+      },
+      {
+        "file": "giuls-11.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 11"
+      },
+      {
+        "file": "giuls-12.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 12"
+      },
+      {
+        "file": "giuls-13.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 13"
+      },
+      {
+        "file": "giuls-14.jpeg",
+        "alt": "Foto ricordo di Giuls",
+        "caption": "Giuls · Foto 14"
+      }
+    ]
+  },
+  {
+    "id": "ilaria",
+    "name": "Ilaria",
+    "description": "Tutti i ricordi e i momenti condivisi con Ilaria.",
+    "cover": "ilaria-01.jpeg",
+    "photos": [
+      {
+        "file": "ilaria-01.jpeg",
+        "alt": "Foto ricordo di Ilaria",
+        "caption": "Ilaria · Foto 1"
+      },
+      {
+        "file": "ilaria-02.jpeg",
+        "alt": "Foto ricordo di Ilaria",
+        "caption": "Ilaria · Foto 2"
+      },
+      {
+        "file": "ilaria-03.jpeg",
+        "alt": "Foto ricordo di Ilaria",
+        "caption": "Ilaria · Foto 3"
+      },
+      {
+        "file": "ilaria-04.jpeg",
+        "alt": "Foto ricordo di Ilaria",
+        "caption": "Ilaria · Foto 4"
+      },
+      {
+        "file": "ilaria-05.jpeg",
+        "alt": "Foto ricordo di Ilaria",
+        "caption": "Ilaria · Foto 5"
+      }
+    ]
+  },
+  {
+    "id": "jappy",
+    "name": "Jappy",
+    "description": "Tutti i ricordi e i momenti condivisi con Jappy.",
+    "cover": "jappy-01.jpeg",
+    "photos": [
+      {
+        "file": "jappy-01.jpeg",
+        "alt": "Foto ricordo di Jappy",
+        "caption": "Jappy · Foto 1"
+      }
+    ]
+  },
+  {
+    "id": "maino",
+    "name": "Maino",
+    "description": "Tutti i ricordi e i momenti condivisi con Maino.",
+    "cover": "maino-01.jpeg",
+    "photos": [
+      {
+        "file": "maino-01.jpeg",
+        "alt": "Foto ricordo di Maino",
+        "caption": "Maino · Foto 1"
+      },
+      {
+        "file": "maino-02.jpeg",
+        "alt": "Foto ricordo di Maino",
+        "caption": "Maino · Foto 2"
+      },
+      {
+        "file": "maino-03.jpeg",
+        "alt": "Foto ricordo di Maino",
+        "caption": "Maino · Foto 3"
+      }
+    ]
+  },
+  {
+    "id": "matteo",
+    "name": "Matteo",
+    "description": "Tutti i ricordi e i momenti condivisi con Matteo.",
+    "cover": "matteo-01.jpeg",
+    "photos": [
+      {
+        "file": "matteo-01.jpeg",
+        "alt": "Foto ricordo di Matteo",
+        "caption": "Matteo · Foto 1"
       }
     ]
   },
   {
     "id": "sofia",
     "name": "Sofia",
-    "description": "Tutte le foto più belle e i ricordi condivisi con Sofia.",
-    "cover": "sofia-01.svg",
+    "description": "Tutti i ricordi e i momenti condivisi con Sofia.",
+    "cover": "sofia-01.jpeg",
     "photos": [
       {
-        "file": "sofia-01.svg",
-        "alt": "Foto ricordo con Sofia",
-        "caption": "Un ricordo speciale con Sofia"
+        "file": "sofia-01.jpeg",
+        "alt": "Foto ricordo di Sofia",
+        "caption": "Sofia · Foto 1"
       },
       {
-        "file": "sofia-02.svg",
-        "alt": "Seconda foto ricordo con Sofia",
-        "caption": "Un altro momento da portare in Canada"
+        "file": "sofia-02.jpeg",
+        "alt": "Foto ricordo di Sofia",
+        "caption": "Sofia · Foto 2"
+      }
+    ]
+  },
+  {
+    "id": "tutti",
+    "name": "Tutti",
+    "description": "Le foto di gruppo e i ricordi vissuti tutti insieme.",
+    "cover": "tutti-01.jpeg",
+    "photos": [
+      {
+        "file": "tutti-01.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 1"
+      },
+      {
+        "file": "tutti-02.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 2"
+      },
+      {
+        "file": "tutti-03.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 3"
+      },
+      {
+        "file": "tutti-04.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 4"
       }
     ]
   }
