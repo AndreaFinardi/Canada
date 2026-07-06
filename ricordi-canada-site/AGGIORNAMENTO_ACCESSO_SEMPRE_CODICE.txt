@@ -1,0 +1,16 @@
+AGGIORNAMENTO ACCESSO
+
+Modifica richiesta: il sito non deve ricordare il dispositivo.
+
+Ora funziona così:
+- dopo aver inserito il codice, il sito resta aperto nella scheda corrente;
+- se chiudi la scheda e riapri il sito, viene richiesto di nuovo il codice;
+- se apri il sito in una nuova scheda, viene richiesto di nuovo il codice;
+- il cookie non ha più durata di 30 giorni, quindi non viene salvato come accesso permanente.
+
+File modificati:
+- server.js
+- public/login.js
+- public/app.js
+- public/login.html
+- private/app.html
