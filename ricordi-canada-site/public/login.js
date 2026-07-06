@@ -4,6 +4,7 @@ const form = document.querySelector('#login-form');
 const input = document.querySelector('#access-code');
 const message = document.querySelector('#login-message');
 const button = document.querySelector('#login-button');
+const TAB_ACCESS_KEY = 'ricordi-canada-tab-open';
 
 function formatDateCode(value) {
   const digits = value.replace(/\D/g, '').slice(0, 8);
@@ -53,6 +54,7 @@ form.addEventListener('submit', async (event) => {
 
     message.textContent = 'Codice corretto. Apro i ricordi…';
     message.classList.add('is-success');
+    sessionStorage.setItem(TAB_ACCESS_KEY, 'yes');
     window.location.assign(data.redirect || '/ricordi');
   } catch (error) {
     message.textContent = error.message;

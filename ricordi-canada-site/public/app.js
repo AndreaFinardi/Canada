@@ -20,6 +20,7 @@ const speechRate = document.querySelector('#speech-rate');
 const speechStatus = document.querySelector('#speech-status');
 const readingModeButton = document.querySelector('#reading-mode-button');
 const logoutButton = document.querySelector('#logout-button');
+const TAB_ACCESS_KEY = 'ricordi-canada-tab-open';
 
 const photoGroupsGrid = document.querySelector('#photo-groups-grid');
 const photosLoadingState = document.querySelector('#photos-loading-state');
@@ -44,6 +45,21 @@ let currentUtterance = null;
 let italianVoice = null;
 let currentPhotoGroup = null;
 let currentPhotoIndex = 0;
+
+
+function hasCurrentTabAccess() {
+  return sessionStorage.getItem(TAB_ACCESS_KEY) === 'yes';
+}
+
+async function forceLoginForNewTab() {
+  if (hasCurrentTabAccess()) return true;
+
+  // Se il sito viene riaperto in una nuova scheda o dopo aver chiuso la scheda precedente,
+  // sessionStorage è vuoto: elimino il cookie e richiedo di nuovo il codice.
+  await fetch('/api/logout', { method: 'POST', keepalive: true }).catch(() => null);
+  window.location.replace('/login');
+  return false;
+}
 
 function escapeForText(value) {
   return String(value ?? '').trim();
@@ -481,6 +497,7 @@ readingModeButton.addEventListener('click', () => {
 
 logoutButton.addEventListener('click', async () => {
   stopSpeech();
+  sessionStorage.removeItem(TAB_ACCESS_KEY);
   await fetch('/api/logout', { method: 'POST' }).catch(() => null);
   window.location.assign('/login');
 });
@@ -491,5 +508,8 @@ if ('speechSynthesis' in window) {
 }
 
 applyReadingMode(localStorage.getItem('ricordi-reading-mode') === 'on');
-loadLetters();
-loadPhotoGroups();
+forceLoginForNewTab().then((canContinue) => {
+  if (!canContinue) return;
+  loadLetters();
+  loadPhotoGroups();
+});
