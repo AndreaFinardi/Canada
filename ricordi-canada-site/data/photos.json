@@ -1,5 +1,38 @@
 [
   {
+    "id": "alessandra",
+    "name": "Alessandra",
+    "description": "Tutti i ricordi e i momenti condivisi con Alessandra.",
+    "cover": "alessandra-01.jpeg",
+    "photos": [
+      {
+        "file": "alessandra-01.jpeg",
+        "alt": "Foto ricordo di Alessandra",
+        "caption": "Alessandra · Foto 1"
+      },
+      {
+        "file": "alessandra-02.jpeg",
+        "alt": "Foto ricordo di Alessandra",
+        "caption": "Alessandra · Foto 2"
+      },
+      {
+        "file": "alessandra-03.jpeg",
+        "alt": "Foto ricordo di Alessandra",
+        "caption": "Alessandra · Foto 3"
+      },
+      {
+        "file": "alessandra-04.jpeg",
+        "alt": "Foto ricordo di Alessandra",
+        "caption": "Alessandra · Foto 4"
+      },
+      {
+        "file": "alessandra-05.jpeg",
+        "alt": "Foto ricordo di Alessandra",
+        "caption": "Alessandra · Foto 5"
+      }
+    ]
+  },
+  {
     "id": "angela",
     "name": "Angela",
     "description": "Tutti i ricordi e i momenti condivisi con Angela.",
@@ -24,6 +57,84 @@
         "file": "angela-04.jpeg",
         "alt": "Foto ricordo di Angela",
         "caption": "Angela · Foto 4"
+      }
+    ]
+  },
+  {
+    "id": "aury",
+    "name": "Aury",
+    "description": "Tutti i ricordi e i momenti condivisi con Aury.",
+    "cover": "aury-01.jpeg",
+    "photos": [
+      {
+        "file": "aury-01.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 1"
+      },
+      {
+        "file": "aury-02.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 2"
+      },
+      {
+        "file": "aury-03.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 3"
+      },
+      {
+        "file": "aury-04.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 4"
+      },
+      {
+        "file": "aury-05.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 5"
+      },
+      {
+        "file": "aury-06.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 6"
+      },
+      {
+        "file": "aury-07.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 7"
+      },
+      {
+        "file": "aury-08.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 8"
+      },
+      {
+        "file": "aury-09.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 9"
+      },
+      {
+        "file": "aury-10.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 10"
+      },
+      {
+        "file": "aury-11.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 11"
+      },
+      {
+        "file": "aury-12.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 12"
+      },
+      {
+        "file": "aury-13.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 13"
+      },
+      {
+        "file": "aury-14.jpeg",
+        "alt": "Foto ricordo di Aury",
+        "caption": "Aury · Foto 14"
       }
     ]
   },
@@ -65,6 +176,77 @@
         "file": "caterina-04.jpeg",
         "alt": "Foto ricordo di Caterina",
         "caption": "Caterina · Foto 4"
+      }
+    ]
+  },
+  {
+    "id": "chiara",
+    "name": "Chiara",
+    "description": "Tutti i ricordi e i momenti condivisi con Chiara.",
+    "cover": "chiara-01.jpeg",
+    "photos": [
+      {
+        "file": "chiara-01.jpeg",
+        "alt": "Foto ricordo di Chiara",
+        "caption": "Chiara · Foto 1"
+      },
+      {
+        "file": "chiara-02.jpeg",
+        "alt": "Foto ricordo di Chiara",
+        "caption": "Chiara · Foto 2"
+      },
+      {
+        "file": "chiara-03.jpeg",
+        "alt": "Foto ricordo di Chiara",
+        "caption": "Chiara · Foto 3"
+      },
+      {
+        "file": "chiara-04.jpeg",
+        "alt": "Foto ricordo di Chiara",
+        "caption": "Chiara · Foto 4"
+      },
+      {
+        "file": "chiara-05.jpeg",
+        "alt": "Foto ricordo di Chiara",
+        "caption": "Chiara · Foto 5"
+      },
+      {
+        "file": "chiara-06.jpeg",
+        "alt": "Foto ricordo di Chiara",
+        "caption": "Chiara · Foto 6"
+      },
+      {
+        "file": "chiara-07.jpeg",
+        "alt": "Foto ricordo di Chiara",
+        "caption": "Chiara · Foto 7"
+      },
+      {
+        "file": "chiara-08.jpeg",
+        "alt": "Foto ricordo di Chiara",
+        "caption": "Chiara · Foto 8"
+      },
+      {
+        "file": "chiara-09.jpeg",
+        "alt": "Foto ricordo di Chiara",
+        "caption": "Chiara · Foto 9"
+      },
+      {
+        "file": "chiara-10.jpeg",
+        "alt": "Foto ricordo di Chiara",
+        "caption": "Chiara · Foto 10"
+      }
+    ]
+  },
+  {
+    "id": "facco",
+    "name": "Facco",
+    "description": "Tutti i ricordi e i momenti condivisi con Facco.",
+    "cover": "facco-01.jpeg",
+    "photos": [
+      {
+        "file": "facco-01.jpeg",
+        "alt": "Foto ricordo di Facco",
+        "caption": "Facco · Foto 1"
       }
     ]
   },
@@ -229,6 +411,32 @@
     ]
   },
   {
+    "id": "micheal",
+    "name": "Micheal",
+    "description": "Tutti i ricordi e i momenti condivisi con Micheal.",
+    "cover": "micheal-01.jpeg",
+    "photos": [
+      {
+        "file": "micheal-01.jpeg",
+        "alt": "Foto ricordo di Micheal",
+        "caption": "Micheal · Foto 1"
+      }
+    ]
+  },
+  {
+    "id": "pier",
+    "name": "Pier",
+    "description": "Tutti i ricordi e i momenti condivisi con Pier.",
+    "cover": "pier-01.jpeg",
+    "photos": [
+      {
+        "file": "pier-01.jpeg",
+        "alt": "Foto ricordo di Pier",
+        "caption": "Pier · Foto 1"
+      }
+    ]
+  },
+  {
     "id": "sofia",
     "name": "Sofia",
     "description": "Tutti i ricordi e i momenti condivisi con Sofia.",
@@ -272,87 +480,47 @@
     ]
   },
   {
-    "id": "aury",
-    "name": "Aury",
-    "description": "Tutti i ricordi e i momenti condivisi con Aury.",
-    "cover": "aury-01.jpeg",
+    "id": "tobi",
+    "name": "Tobi",
+    "description": "Tutti i ricordi e i momenti condivisi con Tobi.",
+    "cover": "tobi-01.jpeg",
     "photos": [
       {
-        "file": "aury-01.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 1"
+        "file": "tobi-01.jpeg",
+        "alt": "Foto ricordo di Tobi",
+        "caption": "Tobi · Foto 1"
       },
       {
-        "file": "aury-02.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 2"
+        "file": "tobi-02.jpeg",
+        "alt": "Foto ricordo di Tobi",
+        "caption": "Tobi · Foto 2"
       },
       {
-        "file": "aury-03.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 3"
+        "file": "tobi-03.jpeg",
+        "alt": "Foto ricordo di Tobi",
+        "caption": "Tobi · Foto 3"
       },
       {
-        "file": "aury-04.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 4"
+        "file": "tobi-04.jpeg",
+        "alt": "Foto ricordo di Tobi",
+        "caption": "Tobi · Foto 4"
       },
       {
-        "file": "aury-05.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 5"
+        "file": "tobi-05.jpeg",
+        "alt": "Foto ricordo di Tobi",
+        "caption": "Tobi · Foto 5"
       },
       {
-        "file": "aury-06.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 6"
-      },
-      {
-        "file": "aury-07.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 7"
-      },
-      {
-        "file": "aury-08.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 8"
-      },
-      {
-        "file": "aury-09.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 9"
-      },
-      {
-        "file": "aury-10.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 10"
-      },
-      {
-        "file": "aury-11.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 11"
-      },
-      {
-        "file": "aury-12.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 12"
-      },
-      {
-        "file": "aury-13.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 13"
-      },
-      {
-        "file": "aury-14.jpeg",
-        "alt": "Foto ricordo di Aury",
-        "caption": "Aury · Foto 14"
+        "file": "tobi-06.jpeg",
+        "alt": "Foto ricordo di Tobi",
+        "caption": "Tobi · Foto 6"
       }
     ]
   },
   {
     "id": "tutti",
     "name": "Tutti",
-    "description": "Le foto di gruppo e i ricordi vissuti tutti insieme.",
+    "description": "Le foto di gruppo e i ricordi condivisi tutti insieme.",
     "cover": "tutti-01.jpeg",
     "photos": [
       {
@@ -404,34 +572,51 @@
         "file": "tutti-10.jpeg",
         "alt": "Foto ricordo di Tutti",
         "caption": "Tutti · Foto 10"
-      }
-    ]
-  },
-  {
-    "id": "tobi",
-    "name": "Tobi",
-    "description": "Tutti i ricordi e i momenti condivisi con Tobi.",
-    "cover": "tobi-01.jpeg",
-    "photos": [
-      {
-        "file": "tobi-01.jpeg",
-        "alt": "Foto ricordo di Tobi",
-        "caption": "Tobi · Foto 1"
       },
       {
-        "file": "tobi-02.jpeg",
-        "alt": "Foto ricordo di Tobi",
-        "caption": "Tobi · Foto 2"
+        "file": "tutti-11.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 11"
       },
       {
-        "file": "tobi-03.jpeg",
-        "alt": "Foto ricordo di Tobi",
-        "caption": "Tobi · Foto 3"
+        "file": "tutti-12.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 12"
       },
       {
-        "file": "tobi-04.jpeg",
-        "alt": "Foto ricordo di Tobi",
-        "caption": "Tobi · Foto 4"
+        "file": "tutti-13.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 13"
+      },
+      {
+        "file": "tutti-14.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 14"
+      },
+      {
+        "file": "tutti-15.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 15"
+      },
+      {
+        "file": "tutti-16.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 16"
+      },
+      {
+        "file": "tutti-17.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 17"
+      },
+      {
+        "file": "tutti-18.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 18"
+      },
+      {
+        "file": "tutti-19.jpeg",
+        "alt": "Foto ricordo di Tutti",
+        "caption": "Tutti · Foto 19"
       }
     ]
   }

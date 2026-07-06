@@ -1,0 +1,32 @@
+AGGIORNAMENTO NUOVI CONTENUTI
+Foto/album presenti dopo questo aggiornamento:
+- Alessandra: 5 foto
+- Angela: 4 foto
+- Aury: 14 foto
+- Betta: 1 foto
+- Caterina: 4 foto
+- Chiara: 10 foto
+- Facco: 1 foto
+- Giuls: 14 foto
+- Ilaria: 5 foto
+- Jappy: 1 foto
+- Maino: 3 foto
+- Matteo: 1 foto
+- Micheal: 1 foto
+- Pier: 1 foto
+- Sofia: 7 foto
+- Tobi: 6 foto
+- Tutti: 19 foto
+
+Nuove lettere aggiunte:
+- Alessandra
+- Chiara
+- Pier
+
+File principali modificati:
+- data/photos.json
+- data/letters.json
+- private/photos/
+- private/images/lettera-alessandra.jpg
+- private/images/lettera-chiara.jpg
+- private/images/lettera-pier.jpg
