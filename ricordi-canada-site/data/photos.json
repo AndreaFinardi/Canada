@@ -1320,5 +1320,38 @@
         "caption": "Finni · Foto 3"
       }
     ]
+  },
+  {
+    "id": "vivi",
+    "name": "Vivi",
+    "description": "Tutti i ricordi e i momenti condivisi con Vivi.",
+    "cover": "vivi-01.jpeg",
+    "photos": [
+      {
+        "file": "vivi-01.jpeg",
+        "alt": "Foto ricordo di Vivi",
+        "caption": "Vivi · Foto 1"
+      },
+      {
+        "file": "vivi-02.jpeg",
+        "alt": "Foto ricordo di Vivi",
+        "caption": "Vivi · Foto 2"
+      },
+      {
+        "file": "vivi-03.jpeg",
+        "alt": "Foto ricordo di Vivi",
+        "caption": "Vivi · Foto 3"
+      },
+      {
+        "file": "vivi-04.jpeg",
+        "alt": "Foto ricordo di Vivi",
+        "caption": "Vivi · Foto 4"
+      },
+      {
+        "file": "vivi-05.jpeg",
+        "alt": "Foto ricordo di Vivi",
+        "caption": "Vivi · Foto 5"
+      }
+    ]
   }
 ]

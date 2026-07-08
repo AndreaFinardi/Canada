@@ -1,0 +1,14 @@
+AGGIUNTA VIVI
+
+Contenuti aggiunti:
+- Album Vivi con 5 foto.
+- Lettera di Vivi con testo digitale e immagine della lettera generata dal testo fornito.
+
+File principali modificati:
+- data/photos.json
+- data/letters.json
+- private/photos/vivi/
+- private/images/lettera-vivi.jpg
+
+Caricamento:
+Estrai lo ZIP di aggiornamento e carica la cartella ricordi-canada-site su GitHub, sostituendo i file esistenti.
